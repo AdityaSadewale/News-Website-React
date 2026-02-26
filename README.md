@@ -1,16 +1,79 @@
-# React + Vite
+# News Website React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **news website built using React.js** that fetches and displays live news articles from a news API. Users can browse latest headlines by category and click stories to read more. 
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📰 Displays real-time news articles  
+- 🔍 Category based news filtering  
+- 📦 Built with React and modern JavaScript  
+- 📱 Responsive design for mobile and desktop
 
-## React Compiler
+## 🛠️ Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/AdityaSadewale/News-Website-React.git
 
-## Expanding the ESLint configuration
+Go into the project directory
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+cd News-Website-React
+
+Install dependencies
+
+npm install
+
+Create a .env file in the root (if using a news API) and add your key
+
+REACT_APP_NEWS_API_KEY=YOUR_API_KEY
+
+Start the development server
+
+npm start
+📁 Project Structure
+news-website-react/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── .gitignore
+├── package.json
+└── README.md
+📌 Technologies Used
+
+React.js
+
+JavaScript
+
+Axios or Fetch API
+
+CSS / UI Library (Bootstrap / Tailwind optional)
+
+📦 Deployment
+
+To deploy the app, you can use:
+
+Netlify
+
+Vercel
+
+GitHub Pages
+
+Create a production build before deploying:
+
+npm run build
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repository
+
+Create your feature branch (git checkout -b feature/FeatureName)
+
+Commit your changes (git commit -m "Add Feature")
+
+Push to the branch (git push origin feature/FeatureName)
+
+Open a Pull Request
