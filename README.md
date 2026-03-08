@@ -27,30 +27,6 @@ Create a .env file in the root (if using a news API) and add your key
 
 REACT_APP_NEWS_API_KEY=YOUR_API_KEY
 
-Start the development server
-
-npm start
-📁 Project Structure
-news-website-react/
-├── public/
-├── src/
-│   ├── components/
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── .gitignore
-├── package.json
-└── README.md
-📌 Technologies Used
-
-React.js
-
-JavaScript
-
-Axios or Fetch API
-
-CSS / UI Library (Bootstrap / Tailwind optional)
-
 📦 Deployment
 
 To deploy the app, you can use:
