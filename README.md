@@ -26,15 +26,6 @@ npm install
 Create a .env file in the root (if using a news API) and add your key
 
 REACT_APP_NEWS_API_KEY=YOUR_API_KEY
-
-📦 Deployment
-
-To deploy the app, you can use:
-
-Netlify
-
-Vercel
-
 GitHub Pages
 
 Create a production build before deploying:
