@@ -33,12 +33,6 @@ Create a production build before deploying:
 npm run build
 🤝 Contributing
 
-Contributions are welcome!
-
-Fork the repository
-
-Create your feature branch (git checkout -b feature/FeatureName)
-
 Commit your changes (git commit -m "Add Feature")
 
 Push to the branch (git push origin feature/FeatureName)
