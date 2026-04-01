@@ -28,6 +28,7 @@ Create a .env file in the root (if using a news API) and add your key
 REACT_APP_NEWS_API_KEY=YOUR_API_KEY
 
 npm run build
+
 🤝 Contributing
 
 Commit your changes (git commit -m "Add Feature")
