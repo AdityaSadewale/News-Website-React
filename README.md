@@ -32,7 +32,5 @@ npm run build
 🤝 Contributing
 
 Commit your changes (git commit -m "Add Feature")
-
 Push to the branch (git push origin feature/FeatureName)
-
 Open a Pull Request
